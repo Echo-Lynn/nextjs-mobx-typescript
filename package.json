@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start",
+    "build:prod": "DEPLOY_ENV=prod next build",
+    "start:prod": "DEPLOY_ENV=prod next start",
     "type-check": "tsc"
   },
   "dependencies": {
