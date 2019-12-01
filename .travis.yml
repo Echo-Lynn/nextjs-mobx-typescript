@@ -20,4 +20,4 @@ after_success:
   - cp -r config/ dist/config
   - cp next.config.js package.json pm2.config.js dist
   - rsync -avzP --delete --exclude="node_modules" dist/ root@119.28.222.199:/data/www/nextjs-mobx-typescript
-  - pm2 reload /data/www/nextjs-mobx-typescript/pm2.config.js
+  - ssh root@119.28.222.199 "cd /data/www/nextjs-mobx-typescript && yarn && pm2 reload /data/www/nextjs-mobx-typescript/pm2.config.js"
