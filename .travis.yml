@@ -7,8 +7,7 @@ branches:
   only:
     - master
 before_install:
-  - openssl aes-256-cbc -K $encrypted_1eed37eae157_key -iv $encrypted_1eed37eae157_iv
-    -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_1eed37eae157_key -iv $encrypted_1eed37eae157_iv -in id_rsa.enc -out /.ssh/id_rsa -d
   - chmod 600 ~/.ssh/id_rsa
   - echo -e "Host 119.28.222.199\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 install:
