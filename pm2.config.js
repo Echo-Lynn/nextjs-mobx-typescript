@@ -4,11 +4,7 @@ module.exports = {
         {
             name: 'd_prod',
             script: 'yarn',
-            args: 'start:prod',
-            env: {
-                NODE_ENV: 'production',
-                DEPLOY_ENV: 'prod'
-            }
+            args: 'run start:prod'
         }
     ]
 }
