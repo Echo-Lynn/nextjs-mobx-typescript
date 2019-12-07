@@ -19,6 +19,6 @@ after_success:
   - cp -r .next/ dist/.next
   - cp -r config/ dist/config
   - cp next.config.js package.json pm2.config.js dist
-  - echo "$(date +"%Y%m%d%H%M%S")" >> BUILD_TIME.txt
+  - echo "$(date +"%Y%m%d%H%M%S")" >> dist/BUILD_TIME.txt
   - rsync -avzP --delete --exclude="node_modules" dist/ root@$prod_server_ip:/data/www/nextjs-mobx-typescript
 
