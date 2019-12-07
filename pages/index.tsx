@@ -14,7 +14,7 @@ const IndexPage: NextPage = () => {
       <p>Server side config JSON string: {JSON.stringify(serverRuntimeConfig)}</p>
       <p>
         <Link href="/about">
-          <a>About</a>
+          <a>About </a>
         </Link>
       </p>
     </Layout>
