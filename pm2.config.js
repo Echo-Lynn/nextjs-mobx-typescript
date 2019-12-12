@@ -14,7 +14,7 @@ module.exports = {
       'key': '~/.ssh/id_rsa',
       'host': ['119.28.222.199'],
       'ssh_options': 'StrictHostKeyChecking=no',
-      'ref': 'origin/DEPLOY_PROD',
+      'ref': 'origin/DEPLOY-PROD',
       'repo': 'git@github.com:Echo-Lynn/nextjs-mobx-typescript.git',
       'path': '/data/www/nextjs-mobx-typescript',
       'post-deploy': 'yarn install; pm2 reload ./pm2.config.js'
