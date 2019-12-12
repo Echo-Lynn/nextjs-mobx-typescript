@@ -6,10 +6,10 @@ cache: yarn
 branches:
   only:
     - master
-before_install:
-  - openssl aes-256-cbc -K $encrypted_1eed37eae157_key -iv $encrypted_1eed37eae157_iv -in id_rsa.enc -out ~/.ssh/id_rsa -d
-  - chmod 600 ~/.ssh/id_rsa
-  - echo -e "Host $prod_server_ip\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+#before_install:
+#  - openssl aes-256-cbc -K $encrypted_1eed37eae157_key -iv $encrypted_1eed37eae157_iv -in id_rsa.enc -out ~/.ssh/id_rsa -d
+#  - chmod 600 ~/.ssh/id_rsa
+#  - echo -e "Host $prod_server_ip\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 install:
   - yarn install
 script:
@@ -20,5 +20,15 @@ after_success:
   - cp -r config/ dist/config
   - cp next.config.js package.json pm2.config.js dist
   - echo "$(date +"%Y%m%d%H%M%S")" >> dist/BUILD_TIME.txt
-  - rsync -avzP --delete --exclude="node_modules" dist/ root@$prod_server_ip:/data/www/nextjs-mobx-typescript
+  #- rsync -avzP --delete --exclude="node_modules" dist/ root@$prod_server_ip:/data/www/nextjs-mobx-typescript
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  target_branch: DEPLOY-PROD
+  committer_from_gh: true
+  on:
+    branch: master
+  local_dir: dist
 
