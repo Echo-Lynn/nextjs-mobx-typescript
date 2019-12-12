@@ -11,6 +11,7 @@ before_install:
   - chmod 600 ~/.ssh/id_rsa
   - echo -e "Host $prod_server_ip\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 install:
+  - yarn add global pm2
   - yarn install
 script:
   - yarn build:prod
