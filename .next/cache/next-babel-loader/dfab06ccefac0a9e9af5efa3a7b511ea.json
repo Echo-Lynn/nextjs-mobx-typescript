@@ -1,0 +1,1 @@
+{"ast":null,"code":"// 每个模块的store需继承本基类，来确保服务端首次渲染后的state能同步到客户端\nexport default class Base {\n  constructor(initState = {}) {\n    for (const k in initState) {\n      if (initState.hasOwnProperty(k)) {\n        this[k] = initState[k];\n      }\n    }\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
