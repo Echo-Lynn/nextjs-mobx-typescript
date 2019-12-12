@@ -7,12 +7,12 @@
     "byName": {
       "static/runtime/webpack.js": 0,
       "commons": 1,
-      "static/3ecvZDzQwleLjHHl523AR/pages/_app.js": 2,
-      "static/3ecvZDzQwleLjHHl523AR/pages/_error.js": 3,
-      "static/3ecvZDzQwleLjHHl523AR/pages/about.js": 4,
-      "static/3ecvZDzQwleLjHHl523AR/pages/detail.js": 5,
-      "static/3ecvZDzQwleLjHHl523AR/pages/index.js": 6,
-      "static/3ecvZDzQwleLjHHl523AR/pages/initial-props.js": 7,
+      "static/Nk6kyI4wtsppM6gitDBNY/pages/_app.js": 2,
+      "static/Nk6kyI4wtsppM6gitDBNY/pages/_error.js": 3,
+      "static/Nk6kyI4wtsppM6gitDBNY/pages/about.js": 4,
+      "static/Nk6kyI4wtsppM6gitDBNY/pages/detail.js": 5,
+      "static/Nk6kyI4wtsppM6gitDBNY/pages/index.js": 6,
+      "static/Nk6kyI4wtsppM6gitDBNY/pages/initial-props.js": 7,
       "static/runtime/main.js": 8,
       "static/runtime/polyfills.js": 9
     },
