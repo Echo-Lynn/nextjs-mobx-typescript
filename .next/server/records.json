@@ -23,13 +23,13 @@
     "byName": {
       "init-server.js": 0,
       "on-error-server.js": 1,
-      "static/dI-FgH-N6fcG3BKW_qg2c/pages/_app.js": 2,
-      "static/dI-FgH-N6fcG3BKW_qg2c/pages/_document.js": 3,
-      "static/dI-FgH-N6fcG3BKW_qg2c/pages/_error.js": 4,
-      "static/dI-FgH-N6fcG3BKW_qg2c/pages/about.js": 5,
-      "static/dI-FgH-N6fcG3BKW_qg2c/pages/detail.js": 6,
-      "static/dI-FgH-N6fcG3BKW_qg2c/pages/index.js": 7,
-      "static/dI-FgH-N6fcG3BKW_qg2c/pages/initial-props.js": 8
+      "static/9wcjMXUi38RaOT6XXWtjK/pages/_app.js": 2,
+      "static/9wcjMXUi38RaOT6XXWtjK/pages/_document.js": 3,
+      "static/9wcjMXUi38RaOT6XXWtjK/pages/_error.js": 4,
+      "static/9wcjMXUi38RaOT6XXWtjK/pages/about.js": 5,
+      "static/9wcjMXUi38RaOT6XXWtjK/pages/detail.js": 6,
+      "static/9wcjMXUi38RaOT6XXWtjK/pages/index.js": 7,
+      "static/9wcjMXUi38RaOT6XXWtjK/pages/initial-props.js": 8
     },
     "bySource": {},
     "usedIds": [
