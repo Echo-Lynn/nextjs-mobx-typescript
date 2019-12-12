@@ -11,7 +11,7 @@ module.exports = {
     // "prod" is the environment name
     'prod': {
       'user': 'ubuntu',
-      'key': '~/.ssh',
+      'key': '~/.ssh/id_rsa',
       'host': ['119.28.222.199'],
       'ssh_options': 'StrictHostKeyChecking=no',
       'ref': 'origin/DEPLOY_PROD',
