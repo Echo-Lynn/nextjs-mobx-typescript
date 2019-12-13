@@ -7,14 +7,14 @@
     "byName": {
       "static/runtime/webpack.js": 0,
       "commons": 1,
-      "static/runtime/main.js": 2,
-      "static/runtime/polyfills.js": 3,
-      "static/wjQ4vro3FfNWkQBANAfYg/pages/_app.js": 4,
-      "static/wjQ4vro3FfNWkQBANAfYg/pages/_error.js": 5,
-      "static/wjQ4vro3FfNWkQBANAfYg/pages/about.js": 6,
-      "static/wjQ4vro3FfNWkQBANAfYg/pages/detail.js": 7,
-      "static/wjQ4vro3FfNWkQBANAfYg/pages/index.js": 8,
-      "static/wjQ4vro3FfNWkQBANAfYg/pages/initial-props.js": 9
+      "static/67wGoAcRrhUpBIFnDQ6Zv/pages/_app.js": 2,
+      "static/67wGoAcRrhUpBIFnDQ6Zv/pages/_error.js": 3,
+      "static/67wGoAcRrhUpBIFnDQ6Zv/pages/about.js": 4,
+      "static/67wGoAcRrhUpBIFnDQ6Zv/pages/detail.js": 5,
+      "static/67wGoAcRrhUpBIFnDQ6Zv/pages/index.js": 6,
+      "static/67wGoAcRrhUpBIFnDQ6Zv/pages/initial-props.js": 7,
+      "static/runtime/main.js": 8,
+      "static/runtime/polyfills.js": 9
     },
     "bySource": {},
     "usedIds": [
