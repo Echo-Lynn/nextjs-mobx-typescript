@@ -181,7 +181,7 @@ const IndexPage = () => {
     title: "Home | Next.js + TypeScript Example"
   }, __jsx("h1", null, "Hello Next.js \uD83D\uDC4B"), __jsx("p", null, "Public config JSON string: ", _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(publicRuntimeConfig)), __jsx("p", null, "Server side config JSON string: ", _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(serverRuntimeConfig)), __jsx("p", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/about"
-  }, __jsx("a", null, "About "))));
+  }, __jsx("a", null, "About "))), __jsx("p", null, "\u81EA\u52A8\u5316\u90E8\u7F72\u6210\u529F"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
