@@ -17,7 +17,7 @@ module.exports = {
       'ref': 'origin/DEPLOY-PROD',
       'repo': 'git@github.com:Echo-Lynn/nextjs-mobx-typescript.git',
       'path': '/data/www/nextjs-mobx-typescript',
-      'post-deploy': '. /etc/profile; yarn install; pm2 reload ./pm2.config.js'
+      'post-deploy': '.  /root/.nvm/nvm.sh && yarn install && pm2 reload pm2.config.js'
     },
   }
 }
