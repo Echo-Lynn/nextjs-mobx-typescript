@@ -17,6 +17,7 @@ const IndexPage: NextPage = () => {
           <a>About </a>
         </Link>
       </p>
+      <p>自动化部署成功</p>
     </Layout>
   )
 }
